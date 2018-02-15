@@ -9,6 +9,6 @@ target 'functional-todo-demo' do
   pod 'Alamofire', '~> 4.0'
   pod 'Argo'
   pod 'Curry'
-  pod 'ReactiveCocoa', '~> 5.0.0'
+  pod 'ReactiveCocoa'
   pod 'Delta', :git => "https://github.com/conqueror/Delta.git"
 end

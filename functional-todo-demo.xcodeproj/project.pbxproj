@@ -78,6 +78,15 @@
 		A3AEE3382035D678009FF764 /* functional-todo-demo */ = {
 			isa = PBXGroup;
 			children = (
+				A3AEE3532035D804009FF764 /* Views */,
+				A3AEE3522035D7FE009FF764 /* State */,
+				A3AEE3512035D7F0009FF764 /* Resources */,
+				A3AEE3502035D7EA009FF764 /* Models */,
+				A3AEE34F2035D7E2009FF764 /* Managers */,
+				A3AEE34E2035D7DA009FF764 /* Extensions */,
+				A3AEE34D2035D7CF009FF764 /* Controllers */,
+				A3AEE34C2035D7B9009FF764 /* Communications */,
+				A3AEE34B2035D7AB009FF764 /* Actions */,
 				A3AEE3392035D678009FF764 /* AppDelegate.swift */,
 				A3AEE33B2035D678009FF764 /* ViewController.swift */,
 				A3AEE33D2035D678009FF764 /* Main.storyboard */,
@@ -86,6 +95,69 @@
 				A3AEE3452035D678009FF764 /* Info.plist */,
 			);
 			path = "functional-todo-demo";
+			sourceTree = "<group>";
+		};
+		A3AEE34B2035D7AB009FF764 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		A3AEE34C2035D7B9009FF764 /* Communications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Communications;
+			sourceTree = "<group>";
+		};
+		A3AEE34D2035D7CF009FF764 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A3AEE34E2035D7DA009FF764 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A3AEE34F2035D7E2009FF764 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A3AEE3502035D7EA009FF764 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3AEE3512035D7F0009FF764 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3AEE3522035D7FE009FF764 /* State */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		A3AEE3532035D804009FF764 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
