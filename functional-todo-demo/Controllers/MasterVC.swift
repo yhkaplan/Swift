@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MasterVC.swift
 //  functional-todo-demo
 //
 //  Created by Joshua Kaplan on 2018/02/15.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MasterVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
