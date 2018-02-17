@@ -29,6 +29,7 @@
 		A36E02412038190100D3BABC /* LoadTodosAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02402038190100D3BABC /* LoadTodosAction.swift */; };
 		A36E02432038195300D3BABC /* SetFilterAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02422038195300D3BABC /* SetFilterAction.swift */; };
 		A36E0245203819DD00D3BABC /* ToggleCompletedAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E0244203819DD00D3BABC /* ToggleCompletedAction.swift */; };
+		A36E024720381FFA00D3BABC /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E024620381FFA00D3BABC /* TodoTableViewCell.swift */; };
 		A3AEE33A2035D678009FF764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE3392035D678009FF764 /* AppDelegate.swift */; };
 		A3AEE33C2035D678009FF764 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE33B2035D678009FF764 /* MasterVC.swift */; };
 		A3AEE33F2035D678009FF764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AEE33D2035D678009FF764 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		A36E02402038190100D3BABC /* LoadTodosAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTodosAction.swift; sourceTree = "<group>"; };
 		A36E02422038195300D3BABC /* SetFilterAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFilterAction.swift; sourceTree = "<group>"; };
 		A36E0244203819DD00D3BABC /* ToggleCompletedAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCompletedAction.swift; sourceTree = "<group>"; };
+		A36E024620381FFA00D3BABC /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		A3AEE3362035D678009FF764 /* functional-todo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "functional-todo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AEE3392035D678009FF764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AEE33B2035D678009FF764 /* MasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 		A3AEE3532035D804009FF764 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A36E024620381FFA00D3BABC /* TodoTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				A36E02412038190100D3BABC /* LoadTodosAction.swift in Sources */,
 				A36E021F2037208A00D3BABC /* ViewModel1.swift in Sources */,
 				A36E02432038195300D3BABC /* SetFilterAction.swift in Sources */,
+				A36E024720381FFA00D3BABC /* TodoTableViewCell.swift in Sources */,
 				A36E02252037221600D3BABC /* TodoRequest.swift in Sources */,
 				A3AEE33C2035D678009FF764 /* MasterVC.swift in Sources */,
 				A36E02392038110700D3BABC /* ClearCompletedTodosAction.swift in Sources */,
