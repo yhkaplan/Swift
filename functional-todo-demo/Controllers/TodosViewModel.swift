@@ -1,5 +1,5 @@
 //
-//  ViewModel1.swift
+//  TodosViewModel.swift
 //  functional-todo-demo
 //
 //  Created by Joshua Kaplan on 2018/02/16.
