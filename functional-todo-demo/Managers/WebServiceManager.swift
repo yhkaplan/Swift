@@ -63,7 +63,7 @@ func sendRequest(_ url: URLs, request: RequestProtocol, completion: @escaping (_
         .responseJSON { response in
             
             guard response.result.error == nil else {
-                debugPrint("HTTP Request failed: \(response.result.error!.localizedDescription)")
+                debugPrint("HTTP Request failed: \(response.result.error?.localizedDescription ?? "")")
                 completion(nil, response.result.error)
                 return
             }

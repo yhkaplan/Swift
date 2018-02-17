@@ -16,7 +16,7 @@ func addTodo(_ completion: @escaping (_ responseData: [Todo]?, _ error: Error?) 
     sendRequest(URLs.postTodo, request: newRequest) { response, error in
         guard error == nil, let response = response else {
             completion(nil, error)
-            print("Request failed: \(error!.localizedDescription)")
+            print("Request failed: \(error?.localizedDescription ?? "")")
             return
         }
         
@@ -30,7 +30,7 @@ func listTodos(_ completion: @escaping (_ responseData: [Todo]?, _ error: Error?
     sendRequest(URLs.getTodos, request: RequestModel()) { response, error in
         guard error == nil, let response = response else {
             completion(nil, error)
-            print("Request failed: \(error!.localizedDescription)")
+            print("Request failed: \(error?.localizedDescription ?? "")")
             return
         }
         
@@ -53,7 +53,7 @@ func addOrUpdateTodo(_ todo: [Todo]?, completion: @escaping (_ responseData: [To
     sendRequest(URLs.postTodo, request: newRequest) { response, error in
         guard error == nil, let response = response else {
             completion(nil, error)
-            print("Request failed: \(error!.localizedDescription)")
+            print("Request failed: \(error?.localizedDescription ?? "")")
             return
         }
         
