@@ -21,6 +21,7 @@
 		A36E02312037F69200D3BABC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02302037F69200D3BABC /* State.swift */; };
 		A36E02332037F70B00D3BABC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02322037F70B00D3BABC /* Store.swift */; };
 		A36E0235203801A400D3BABC /* StoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E0234203801A400D3BABC /* StoreExtension.swift */; };
+		A36E023720380FAB00D3BABC /* UpdateTodoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E023620380FAB00D3BABC /* UpdateTodoAction.swift */; };
 		A3AEE33A2035D678009FF764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE3392035D678009FF764 /* AppDelegate.swift */; };
 		A3AEE33C2035D678009FF764 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE33B2035D678009FF764 /* MasterVC.swift */; };
 		A3AEE33F2035D678009FF764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AEE33D2035D678009FF764 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		A36E02302037F69200D3BABC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		A36E02322037F70B00D3BABC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		A36E0234203801A400D3BABC /* StoreExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreExtension.swift; sourceTree = "<group>"; };
+		A36E023620380FAB00D3BABC /* UpdateTodoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTodoAction.swift; sourceTree = "<group>"; };
 		A3AEE3362035D678009FF764 /* functional-todo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "functional-todo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AEE3392035D678009FF764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AEE33B2035D678009FF764 /* MasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		A3AEE34B2035D7AB009FF764 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				A36E023620380FAB00D3BABC /* UpdateTodoAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				A36E0235203801A400D3BABC /* StoreExtension.swift in Sources */,
 				A36E022B2037EAAB00D3BABC /* TodoManager.swift in Sources */,
 				A36E022F2037F64800D3BABC /* MutableProperty+Delta.swift in Sources */,
+				A36E023720380FAB00D3BABC /* UpdateTodoAction.swift in Sources */,
 				A36E02332037F70B00D3BABC /* Store.swift in Sources */,
 				A36E02292037E7CF00D3BABC /* RequestModel.swift in Sources */,
 				A36E022D2037F3E500D3BABC /* Lenses.swift in Sources */,
