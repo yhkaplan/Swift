@@ -180,10 +180,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="switchCompleted" destination="OBc-av-zr5" id="lZP-Dw-oyR"/>
-                        <outlet property="txtFieldDescription" destination="Fwf-Hd-MNK" id="3TS-uF-EbU"/>
-                        <outlet property="txtFieldName" destination="tIj-dE-2YD" id="LqH-QL-2T0"/>
-                        <outlet property="txtFieldNotes" destination="iDR-LN-9b2" id="ioC-cN-Dxl"/>
+                        <outlet property="completedSwitch" destination="OBc-av-zr5" id="wWc-OE-0yx"/>
+                        <outlet property="descriptionTextField" destination="Fwf-Hd-MNK" id="WUw-e7-TOg"/>
+                        <outlet property="nameTextField" destination="tIj-dE-2YD" id="Q4v-x5-mTh"/>
+                        <outlet property="notesTextField" destination="iDR-LN-9b2" id="abC-yQ-nqm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Hr-5x-VrP" userLabel="First Responder" sceneMemberID="firstResponder"/>

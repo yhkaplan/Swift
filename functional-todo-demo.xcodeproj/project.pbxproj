@@ -32,6 +32,7 @@
 		A36E024720381FFA00D3BABC /* TodoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E024620381FFA00D3BABC /* TodoTableViewCell.swift */; };
 		A36E02492038245F00D3BABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E02482038245F00D3BABC /* Main.storyboard */; };
 		A36E024B20382D0F00D3BABC /* MasterVC+TableViewDelegateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E024A20382D0F00D3BABC /* MasterVC+TableViewDelegateDataSource.swift */; };
+		A36E024D2038338300D3BABC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E024C2038338300D3BABC /* DetailsViewController.swift */; };
 		A3AEE33A2035D678009FF764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE3392035D678009FF764 /* AppDelegate.swift */; };
 		A3AEE33C2035D678009FF764 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE33B2035D678009FF764 /* MasterViewController.swift */; };
 		A3AEE3412035D678009FF764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AEE3402035D678009FF764 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		A36E024620381FFA00D3BABC /* TodoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTableViewCell.swift; sourceTree = "<group>"; };
 		A36E02482038245F00D3BABC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A36E024A20382D0F00D3BABC /* MasterVC+TableViewDelegateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MasterVC+TableViewDelegateDataSource.swift"; sourceTree = "<group>"; };
+		A36E024C2038338300D3BABC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		A3AEE3362035D678009FF764 /* functional-todo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "functional-todo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AEE3392035D678009FF764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AEE33B2035D678009FF764 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				A36E024A20382D0F00D3BABC /* MasterVC+TableViewDelegateDataSource.swift */,
 				A36E021E2037208A00D3BABC /* TodosViewModel.swift */,
 				A36E02202037209700D3BABC /* TodoViewModel.swift */,
+				A36E024C2038338300D3BABC /* DetailsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				A36E021D2035DA1C00D3BABC /* Todo.swift in Sources */,
 				A36E02272037239A00D3BABC /* WebServiceManager.swift in Sources */,
 				A36E0235203801A400D3BABC /* StoreExtension.swift in Sources */,
+				A36E024D2038338300D3BABC /* DetailsViewController.swift in Sources */,
 				A36E022B2037EAAB00D3BABC /* TodoManager.swift in Sources */,
 				A36E023D2038126000D3BABC /* DeleteTodoAction.swift in Sources */,
 				A36E022F2037F64800D3BABC /* MutableProperty+Delta.swift in Sources */,
