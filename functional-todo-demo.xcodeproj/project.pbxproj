@@ -16,6 +16,10 @@
 		A36E02272037239A00D3BABC /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02262037239A00D3BABC /* WebServiceManager.swift */; };
 		A36E02292037E7CF00D3BABC /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02282037E7CF00D3BABC /* RequestModel.swift */; };
 		A36E022B2037EAAB00D3BABC /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E022A2037EAAB00D3BABC /* TodoManager.swift */; };
+		A36E022D2037F3E500D3BABC /* Lenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E022C2037F3E500D3BABC /* Lenses.swift */; };
+		A36E022F2037F64800D3BABC /* MutableProperty+Delta.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E022E2037F64800D3BABC /* MutableProperty+Delta.swift */; };
+		A36E02312037F69200D3BABC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02302037F69200D3BABC /* State.swift */; };
+		A36E02332037F70B00D3BABC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E02322037F70B00D3BABC /* Store.swift */; };
 		A3AEE33A2035D678009FF764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE3392035D678009FF764 /* AppDelegate.swift */; };
 		A3AEE33C2035D678009FF764 /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AEE33B2035D678009FF764 /* MasterVC.swift */; };
 		A3AEE33F2035D678009FF764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AEE33D2035D678009FF764 /* Main.storyboard */; };
@@ -33,6 +37,10 @@
 		A36E02262037239A00D3BABC /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 		A36E02282037E7CF00D3BABC /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		A36E022A2037EAAB00D3BABC /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		A36E022C2037F3E500D3BABC /* Lenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lenses.swift; sourceTree = "<group>"; };
+		A36E022E2037F64800D3BABC /* MutableProperty+Delta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MutableProperty+Delta.swift"; sourceTree = "<group>"; };
+		A36E02302037F69200D3BABC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		A36E02322037F70B00D3BABC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		A3AEE3362035D678009FF764 /* functional-todo-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "functional-todo-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AEE3392035D678009FF764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AEE33B2035D678009FF764 /* MasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
@@ -139,6 +147,8 @@
 		A3AEE34E2035D7DA009FF764 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A36E022C2037F3E500D3BABC /* Lenses.swift */,
+				A36E022E2037F64800D3BABC /* MutableProperty+Delta.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -159,6 +169,7 @@
 				A36E02222037213800D3BABC /* RequestProtocol.swift */,
 				A36E02242037221600D3BABC /* TodoRequest.swift */,
 				A36E02282037E7CF00D3BABC /* RequestModel.swift */,
+				A36E02322037F70B00D3BABC /* Store.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +184,7 @@
 		A3AEE3522035D7FE009FF764 /* State */ = {
 			isa = PBXGroup;
 			children = (
+				A36E02302037F69200D3BABC /* State.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -333,7 +345,11 @@
 				A36E021D2035DA1C00D3BABC /* Todo.swift in Sources */,
 				A36E02272037239A00D3BABC /* WebServiceManager.swift in Sources */,
 				A36E022B2037EAAB00D3BABC /* TodoManager.swift in Sources */,
+				A36E022F2037F64800D3BABC /* MutableProperty+Delta.swift in Sources */,
+				A36E02332037F70B00D3BABC /* Store.swift in Sources */,
 				A36E02292037E7CF00D3BABC /* RequestModel.swift in Sources */,
+				A36E022D2037F3E500D3BABC /* Lenses.swift in Sources */,
+				A36E02312037F69200D3BABC /* State.swift in Sources */,
 				A36E02232037213800D3BABC /* RequestProtocol.swift in Sources */,
 				A36E02212037209700D3BABC /* ViewModel2.swift in Sources */,
 				A3AEE33A2035D678009FF764 /* AppDelegate.swift in Sources */,
