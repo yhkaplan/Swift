@@ -9,13 +9,13 @@
 import UIKit
 
 // MARK: UITableViewDataSource
-extension MasterViewController: UITableViewDataSource {
+extension MasterViewController {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.todos.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "todoCell", for: indexPath) as! TodoTableViewCell
         let todo = viewModel.todoForIndexPath(indexPath)
@@ -26,9 +26,9 @@ extension MasterViewController: UITableViewDataSource {
 }
 
 // MARK: - UITableViewDelegate
-extension MasterViewController: UITableViewDelegate {
+extension MasterViewController {
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
         let todo = viewModel.todoForIndexPath(indexPath)
         store.dispatch(ToggleCompletedAction(todo: todo))
@@ -36,9 +36,9 @@ extension MasterViewController: UITableViewDelegate {
     }
     
     //TODO: Emply func, to research
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) { }
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) { }
 
-    func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+    override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         let todo = self.viewModel.todoForIndexPath(indexPath)
         
@@ -58,7 +58,7 @@ extension MasterViewController: UITableViewDelegate {
         return [details, delete]
     }
     
-    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         //The cells here must be editable; TODO: fix
         return true
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MasterViewController: UIViewController {
+class MasterViewController: UITableViewController {
 
     @IBOutlet weak var filterSegmentedControl: UISegmentedControl!
     
